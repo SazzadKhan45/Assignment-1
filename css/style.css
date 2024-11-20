@@ -380,12 +380,66 @@ nav .logo-title {
     height: 313px;
     border-radius: 16px;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .Support-info h3 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
     text-align: center;
+    margin-bottom: 16px;
+}
 
+.Support-info p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 0 250px;
+    margin-bottom: 24px;
+}
 
+.submit-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: auto;
+}
+
+.submit-info .input-area {
+    width: 40%;
+    padding: 24px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: left;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: none;
+}
+
+.submit-info input {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 20px 15px;
+    border-radius: 10px;
 }
 
 /* ------- I need Support style ended -------------*/
@@ -395,7 +449,7 @@ nav .logo-title {
 /* ------ footer section style here ------------------*/
 
 
-.footer-bg{
+.footer-bg {
     background: rgba(13, 19, 33, 0.03);
 }
 
@@ -418,7 +472,7 @@ nav .logo-title {
     text-align: center;
 }
 
-.social-icon{
+.social-icon {
     display: flex;
     gap: 24px;
 }
