@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* ///////////  --------------------- ////////////*/
 /* ------- Common style section here ----------*/
 .btn-primary {
@@ -25,24 +26,26 @@
 /* /////////---------------------------------------- //////////////*/
 
 /* ------navbar style start here --------*/
-nav .nav-items{
+nav .nav-items {
     display: flex;
     justify-content: space-between;
     padding: 50px 150px;
 }
+
 nav .logo-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
 }
+
 /* ------navbar style ended --------*/
 
 /* /////////////////  -----------------  ////////////////////*/
 
 /* ------ header banner style here ---------- */
 
-.header-banner-bg{
+.header-banner-bg {
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-size: cover;
@@ -50,6 +53,55 @@ nav .logo-title {
     height: 652px;
 }
 
-/* ------ header banner style ened ---------- */
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-info img {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 32px;
+}
+
+.banner-info h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    padding: 0 220px;
+    text-align: center;
+    margin-bottom: 24px;
+
+}
+
+.banner-info p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity: 0.7;
+    padding: 0 294px;
+
+}
+
+.banner-info button {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    padding: 15px;
+    margin-top: 32px;
+}
+
+/* ------ header banner style ended ---------- */
 
 /* /////////////////  -----------------  ////////////////////*/
